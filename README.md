@@ -15,7 +15,7 @@ cd <путь_к_папке>
 
 2. Склонируйте репозиторий на свой компьютер с помощью консольной команды:
 
-git clone https://github.com/pr1kol2005/text_editor_web.git --branch dev
+git clone https://github.com/pr1kol2005/word_from_ohio.git --branch dev
 (Вам может потребоваться ввести учетные данные для доступа к репозиторию.)
 
 3. Перейдите в директорию с репозиторием:
