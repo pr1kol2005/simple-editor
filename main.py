@@ -54,4 +54,4 @@ def dark():
 
 
 if __name__ == "__main__":
-    start_server([index, dark], port=8080, debug=True, remote_access=True)
+    start_server([index, dark], debug=True, remote_access=True)
