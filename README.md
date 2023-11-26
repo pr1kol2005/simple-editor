@@ -32,9 +32,9 @@ python3 main.py (если не работает, то python main.py)
 
 6. Будет выведено сообщение с адресом, перейдя по которому Вы попадете на страницу с сервисом:
 
-PyWebIO Application Remote Access
-
-Remote access address: https://____________.app.pywebio.online
+Use http://xxx.xxx.x.x:xxxxx/ to access the application
+                        или
+Remote access address: https://xxxxxxxxxxxx.app.pywebio.online
 
 7. Чтобы запустить юнит-тесты, пропишите следующее:
 
