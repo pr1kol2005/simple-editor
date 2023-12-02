@@ -65,7 +65,6 @@ def clear_text():
     text = ''
     pin_update('text', value=text)
     clear("alert")
-    clear("alert")
     put_success(put_html("<b>Success</b> Cleared successfully!"), closable=True, scope="alert")
     scroll_to("alert", position='bottom')
 
@@ -98,6 +97,22 @@ def replace_all(old, new):
     if pin.text != text:
         put_success(put_html("<b>Success</b> Replaced successfully!"), closable=True, scope="alert")
     scroll_to("alert", position='bottom')
+
+
+def upload():
+    """Функция помещает содержимое загруженного текстового файла в окно для редактирования и выводит оповещение"""
+    clear("alert")
+    if pin.file_upload:
+        file = pin.file_upload['content'].decode()
+        pin_update('text', value=file)
+        put_success(put_html("<b>Success</b> File uploaded successfully!"), closable=True, scope="alert")
+    scroll_to("alert", position='bottom')
+
+
+def show_popup():
+    """Функция открывает всплывающее окошко с возможностью скачать измененый файл"""
+    popup('Download file', put_file('edited_file.txt', content=(pin.text.encode() if pin.text else bytes())),
+          size=PopupSize.NORMAL)
 
 
 def sum_of_digits(number):
