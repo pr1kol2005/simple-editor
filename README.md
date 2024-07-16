@@ -43,7 +43,7 @@ python3 main.py
 
 ```Remote access address: https://xxxxxxxxxxxx.app.pywebio.online```
 
-7. Завершить работу программы можно комбинацией клавиш **Ctrl + C** (**control + C** на MacOs)
+7. Завершить работу программы можно комбинацией клавиш **Ctrl + C** (**control + C** на macOs)
 
 # Запуск unit-тестов
 
