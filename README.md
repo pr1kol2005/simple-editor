@@ -13,13 +13,13 @@ cd <путь к директории>
 2. Склонируйте репозиторий:
 
 ```sh
-git clone https://github.com/pr1kol2005/word_from_ohio.git --branch dev
+git clone https://github.com/pr1kol2005/simple-editor.git --branch main
 ```
 
 3. Перейдите в директорию с репозиторием:
 
 ```sh
-cd word_from_ohio
+cd simple-editor
 ```
 
 4. Установите необходимые зависимости:
@@ -45,7 +45,7 @@ python3 main.py
 
 7. Завершить работу программы можно комбинацией клавиш **Ctrl + C** (**control + C** на macOs)
 
-# Запуск unit-тестов
+### Запуск unit-тестов
 
 ```sh
 python3 unit_test.py
